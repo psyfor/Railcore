@@ -103,8 +103,8 @@ M911 S10 R11 P"M913 X0 Y0 G91 M83 G1 Z3 E-5 F1000" 	; Set voltage thresholds and
 
 ; Miscellaneous
 
-:M950 F2 C"duex.fan7"								; LED Light Bar (left?)
-:M950 F3 C"duex.fan8"								; LED Light Bar (right)?)
+;M950 F2 C"duex.fan7"								; LED Light Bar (left?)
+;M950 F3 C"duex.fan8"								; LED Light Bar (right)?)
 ;M501                                              	; Load saved parameters from non-volatile memory - not used by osh
 T0												   	; Select first hot-end
-M98 P"/macros/LED_Ready_Low.g"						; Turn on LED lights
+;M98 P"/macros/LED_Ready_Low.g"						; Turn on LED lights
